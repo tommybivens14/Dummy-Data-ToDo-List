@@ -1,0 +1,38 @@
+/*stylesheet for Dummy-Data-Todo-List*/
+
+li.istrue{
+    color: red;
+}
+
+li.isfalse{
+    color: green;
+}
+
+body{
+    font-family: monospace;
+}
+
+button{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    font-size: 1em;
+    margin-top: 2%;
+    height: 35px;
+}
+
+.container{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    text-align: center;
+}
